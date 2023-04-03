@@ -1,0 +1,25 @@
+.showing-box {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 550px;
+    height: 550px;
+    margin: 4vh auto 0;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: auto;
+
+    .result {
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    .loading {
+        font-size: 50px;
+        margin: 18.5vw auto;
+    }
+}
+
+.showing-box::-webkit-scrollbar {
+    display: none;
+}

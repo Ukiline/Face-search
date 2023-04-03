@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.center {
+    width: 1250px;
+    height: 625px;
+    margin: 0 auto;
+    padding-top: 25px;
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .main {
+        width: 100%;
+
+        .left {
+            float: left;
+            width: 50%;
+            height: 650px;
+        }
+
+        .right {
+            float: left;
+            width: 50%;
+            height: 650px;
+        }
+    }
+}
